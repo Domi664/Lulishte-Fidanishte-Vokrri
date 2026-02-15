@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lulishte & Fidanishte Vokrri - Lezhë</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background:#f4f8f4;
+}
+
+header {
+    background:#2e7d32;
+    color:white;
+    padding:40px 20px;
+}
+
+section {
+    padding:40px 20px;
+}
+
+.products {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card {
+    background:white;
+    width:250px;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width:100%;
+    border-radius:10px;
+}
+
+.btn {
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background:#4caf50;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer {
+    background:#1b5e20;
+    color:white;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Lulishte & Fidanishte Vokrri</h1>
+<p>Lule dekorative • Fidanë frutorë • Bimë zbukuruese</p>
+<p>📍 Lezhë – Balldre</p>
+</header>
+
+<section>
+<h2>Rreth Nesh</h2>
+<p>Ofrojmë fidanë frutorë, lule sezonale dhe bimë zbukuruese me cilësi të garantuar.
+Shitje me pakicë dhe shumicë.</p>
+</section>
+
+<section>
+<h2>Produktet tona</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Fidanë frutorë">
+<h3>Fidanë Frutorë</h3>
+<p>Qershi, Mollë, Dardhë, Ullinj</p>
+<p><strong>Çmimi: nga 500 Lekë</strong></p>
+<a class="btn" href="https://wa.me/355XXXXXXXXX">Porosit në WhatsApp</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Lule dekorative">
+<h3>Lule Dekorative</h3>
+<p>Trëndafila, Petunia, Begonia</p>
+<p><strong>Çmimi: nga 300 Lekë</strong></p>
+<a class="btn" href="https://wa.me/355XXXXXXXXX">Porosit në WhatsApp</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Bimë zbukuruese">
+<h3>Bimë Zbukuruese</h3>
+<p>Pisha dekorative, Palma, Shkurre</p>
+<p><strong>Çmimi: nga 800 Lekë</strong></p>
+<a class="btn" href="https://wa.me/355XXXXXXXXX">Porosit në WhatsApp</a>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Na Kontaktoni</h2>
+<p>📞 Tel: +355XXXXXXXXX</p>
+<p>📍 Adresa: Lezhë, Balldre</p>
+<p>🕒 Orari: 08:00 – 18:00</p>
+</section>
+
+<footer>
+© 2026 Lulishte & Fidanishte Vokrri | Lezhë
+</footer>
+
+</body>
+</html>
